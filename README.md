@@ -16,3 +16,14 @@ Started: January 5, 2025
 - Security concepts
 
 This repository will track my progress, projects, and learnings.
+
+## Day 1 Progress - January 5, 2025
+- Set up WSL2 and Ubuntu environment
+- Practiced basic Linux commands: pwd, ls, cd, mkdir, touch, cat, echo
+- Created my first bash scripts
+- Learned file navigation and basic shell scripting
+
+**Commands mastered today:**
+- Navigation: pwd, ls, cd
+- File operations: mkdir, touch, cat, echo, chmod
+- Running scripts: bash scriptname.sh
