@@ -27,3 +27,17 @@ This repository will track my progress, projects, and learnings.
 - Navigation: pwd, ls, cd
 - File operations: mkdir, touch, cat, echo, chmod
 - Running scripts: bash scriptname.sh
+
+## Day 2 Progress - January 6, 2025
+- Reviewed Python fundamentals: variables, functions, loops, conditionals
+- Built password strength checker script
+- Created multiply function and loop practice scripts
+- Wrote bash script to display system information
+- Learned Git workflow: clone, add, commit, push
+- Set up SSH authentication for GitHub
+- Successfully pushed 4 scripts to repository from command line
+
+**Key skills practiced:**
+- Python: functions, if/else, string methods, user input
+- Linux: file operations (cp, mv, rm), grep, wc, bash scripting
+- Git: Full workflow from local development to GitHub
