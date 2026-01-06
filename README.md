@@ -41,3 +41,14 @@ This repository will track my progress, projects, and learnings.
 - Python: functions, if/else, string methods, user input
 - Linux: file operations (cp, mv, rm), grep, wc, bash scripting
 - Git: Full workflow from local development to GitHub
+
+  ## Day 3 Progress - January 7, 2026
+- Python deep dive: lists, dictionaries, file handling
+- Built functional to-do list application with file persistence
+- Linux: file permissions (chmod), process management (ps, top, kill)
+- Created system monitoring bash script
+- Learned Git merge conflict resolution
+
+**Projects completed:**
+- To-do list app (todo_app.py)
+- System monitoring script (system_monitor.sh)
