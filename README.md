@@ -42,7 +42,7 @@ This repository will track my progress, projects, and learnings.
 - Linux: file operations (cp, mv, rm), grep, wc, bash scripting
 - Git: Full workflow from local development to GitHub
 
-  ## Day 3 Progress - January 7, 2026
+## Day 3 Progress - January 7, 2026
 - Python deep dive: lists, dictionaries, file handling
 - Built functional to-do list application with file persistence
 - Linux: file permissions (chmod), process management (ps, top, kill)
