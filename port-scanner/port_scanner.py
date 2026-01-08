@@ -1,6 +1,23 @@
 import socket
 from datetime import datetime
 
+# Common port services
+PORT_SERVICES = {
+    21: "FTP",
+    22: "SSH",
+    23: "Telnet",
+    25: "SMTP",
+    53: "DNS",
+    80: "HTTP",
+    110: "POP3",
+    143: "IMAP",
+    443: "HTTPS",
+    445: "SMB",
+    3306: "MySQL",
+    3389: "RDP",
+    8080: "HTTP-Alt"
+}
+
 def scan_port(target_ip, port):
     """Scan a single port and return if it's open"""
     try:
@@ -11,18 +28,6 @@ def scan_port(target_ip, port):
         return result == 0
     except:
         return False
-
-def scan_range(target_ip, start_port, end_port):
-    """Scan a range of ports"""
-    print(f"\nScanning ports {start_port}-{end_port}...\n")
-    open_ports = []
-    
-    for port in range(start_port, end_port + 1):
-        if scan_port(target_ip, port):
-            print(f"Port {port}: OPEN")
-            open_ports.append(port)
-    
-    return open_ports
 
 # Main program
 print("=" * 50)
@@ -41,37 +46,37 @@ print(f"\nTarget IP: {target_ip}")
 print(f"Scan started: {datetime.now()}")
 print("-" * 50)
 
-
+# Ask if user wants to scan custom range
 custom = input("\nScan custom port range? (y/n): ")
 
+open_ports = []
+
 if custom.lower() == 'y':
-	try:
-		start = int(input("Start port: "))
-		end = int(input("End port: "))
-
-		print(f"\nScanning ports {start}-{end}...")
-		open_ports = []
-
-		for port in range(start, end + 1):
-			if scan_port(target_ip, port):
-				print(f"Port {port}: OPEN")
-				if port not in open_ports:
-					open_ports.append(port)
-
-	except ValueError:
-		print("Invalid port range")
-
+    try:
+        start = int(input("Start port: "))
+        end = int(input("End port: "))
+        
+        print(f"\nScanning ports {start}-{end}...")
+        
+        for port in range(start, end + 1):
+            if scan_port(target_ip, port):
+                service = PORT_SERVICES.get(port, "Unknown")
+                print(f"Port {port}: OPEN - {service}")
+                open_ports.append(port)
+    except ValueError:
+        print("Invalid port range")
 
 # Scan common ports
 common_ports = [21, 22, 23, 25, 53, 80, 110, 143, 443, 445, 3306, 3389, 8080]
 
 print("\nScanning common ports...")
-open_ports = []
 
 for port in common_ports:
     if scan_port(target_ip, port):
-        print(f"Port {port}: OPEN")
-        open_ports.append(port)
+        service = PORT_SERVICES.get(port, "Unknown")
+        print(f"Port {port}: OPEN - {service}")
+        if port not in open_ports:
+            open_ports.append(port)
 
 print("\n" + "-" * 50)
 print(f"Scan completed: {datetime.now()}")
