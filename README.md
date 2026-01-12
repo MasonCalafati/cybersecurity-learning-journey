@@ -52,3 +52,18 @@ This repository will track my progress, projects, and learnings.
 **Projects completed:**
 - To-do list app (todo_app.py)
 - System monitoring script (system_monitor.sh)
+
+## Day 4 Progress - January 12, 2026
+- Applied to 10+ cybersecurity internships (Indeed, LinkedIn)
+- Built password cracker demonstration tool with two attack methods:
+  - Dictionary attack using common weak passwords
+  - Brute force attack for numeric passwords
+  - Demonstrates password hashing (SHA-256) and security concepts
+
+**Projects completed:**
+- Password cracker tool (password_cracker.py)
+
+**Skills practiced:**
+- Python: hashing algorithms, time measurement, functions
+- Security concepts: password cracking, brute force vs dictionary attacks
+- Professional development: internship applications, self-improvement
