@@ -67,3 +67,12 @@ This repository will track my progress, projects, and learnings.
 - Python: hashing algorithms, time measurement, functions
 - Security concepts: password cracking, brute force vs dictionary attacks
 - Professional development: internship applications, self-improvement
+
+## Day 5 Progress - January 16, 2026
+- Built network monitoring tools:
+  - Packet analyzer demonstrating protocol understanding
+  - Connection scanner with security alerts
+
+**Weekly Summary (Jan 12-16):**
+- Projects completed: 2 (Password cracker, Network monitor)
+- Skills developed: Network analysis, socket programming, security monitoring
