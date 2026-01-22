@@ -9,7 +9,7 @@ A Python-based network reconnaissance tool that scans target hosts for open port
 - Comprehensive error handling
 
 ## Demo
-![Port Scanner Demo](port scanner ss.png)
+![Port Scanner Demo](https://github.com/MasonCalafati/cybersecurity-learning-journey/blob/main/port-scanner/port%20scanner%20ss.png)
 
 ## Technical Skills Demonstrated
 - Socket programming in Python
