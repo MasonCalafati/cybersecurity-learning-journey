@@ -43,4 +43,4 @@ sudo python3 network_monitor.py
 Note: Requires administrator/root privileges for packet capture.
 
 ## Demo
-![Network Monitor Demo](demo.png)
+![Network Monitor Demo](https://github.com/MasonCalafati/cybersecurity-learning-journey/blob/main/network-monitor/connection%20monitor.png?raw=true)
