@@ -10,7 +10,7 @@ Educational tool demonstrating password cracking techniques using dictionary att
 - Security recommendations
 
 ## Demo
-![Password Cracker Demo](password cracker.png)
+![Password Cracker Demo](https://github.com/MasonCalafati/cybersecurity-learning-journey/blob/main/password-cracker/password%20cracker.png)
 
 ## Technical Skills Demonstrated
 - Cryptographic hashing (SHA-256)
