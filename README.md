@@ -1,6 +1,37 @@
-# cybersecurity-learning-journey
-Documenting my path to becoming a cybersecurity professional
-My Cybersecurity Learning Journey
+# Cybersecurity Learning Journey
+
+Building practical cybersecurity skills through hands-on projects and continuous learning.
+
+## 🎯 Current Focus
+- Preparing for summer 2026 cybersecurity internships
+- Building portfolio of security tools and applications
+- Studying for CompTIA Network+ certification
+- Developing skills in Python, Linux, and network security
+
+## 🛠️ Featured Projects
+
+### [Port Scanner](./port-scanner)
+Network reconnaissance tool with service detection and custom port range scanning.
+
+### [Password Cracker](./password-cracker)
+Educational demonstration of dictionary and brute-force password cracking techniques.
+
+### [Network Monitoring Tools](./network-monitor)
+Packet analyzer and connection scanner for security monitoring.
+
+### [To-Do List Application](./python-practice)
+CLI task manager with file persistence and CRUD operations.
+
+### [System Monitor](./linux-practice)
+Bash script for comprehensive system health reporting.
+
+## 📊 Skills & Technologies
+**Languages:** Python, Bash  
+**Concepts:** Network security, cryptography, system administration, socket programming  
+**Tools:** Git, Linux (Ubuntu), WSL  
+**Certifications:** Pursuing CompTIA Network+
+
+---
 
 Started: January 5, 2025
 
